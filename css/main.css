@@ -16,21 +16,20 @@ a, a:visited {
 }
 
 section {
-  padding: 10vh 0;
+  padding: 5vh;
   position: relative;
-  min-height: 100vh;
   display: flex;
   align-items: center;
 }
 
 section.dark, footer.dark, #header.dark {
-  background-color: #000E1F;
-  color: white;
+  background-color: #4B9CD3;
+  color: #014466;
 }
 
 section.blue, footer.blue {
-  background-color: #016699;
-  color: white;
+  background-color: #4B9CD3;
+  color: #014466;
 }
 
 #header {
@@ -86,16 +85,36 @@ img {
   vertical-align: middle;
 }
 
-.platinum, .gold, .silver {
-  margin-top: 20px;
+.diamond, .platinum, .gold, .silver, .bronze {
+  border-top: solid 4px #B362ac;
+  padding-top: 20px; /* Added padding-top to create space between text and border */
+  margin-top:  20px;
+}
+
+.platinum {
+  border-top: solid 4px #E5E4E2;
+  padding-top: 20px; /* Added padding-top to create space between text and border */
 }
 
 .gold {
   border-top: solid 4px #c29a36;
+  padding-top: 20px; /* Added padding-top to create space between text and border */
 }
 
 .silver {
   border-top: solid 4px #82969a;
+  padding-top: 20px; /* Added padding-top to create space between text and border */
+}
+
+.bronze {
+  border-top: solid 4px #CD7F32;
+  padding-top: 20px; /* Added padding-top to create space between text and border */
+}
+
+.diamond img {
+  margin: 20px;
+  max-height: 25vh;
+  max-width: 50%;
 }
 
 .platinum img {
@@ -114,6 +133,12 @@ img {
   margin: 20px;
   max-height: 9vh;
   max-width: 15%;
+}
+
+.bronze img {
+  margin: 20px;
+  max-height: 90000vh;
+  max-width: 150%;
 }
 
 .team.grid {
@@ -148,9 +173,9 @@ img {
   grid-row: 1 / 1;
   grid-column: 1 / 1; }
 
-.team.grid > *:first-child {
+/* .team.grid > *:first-child {
   grid-row: 1 / 1;
-  grid-column: 1 / 1; }
+  grid-column: 1 / 1; } */
 
 .team.single {
   color: white;
@@ -199,7 +224,7 @@ img {
 }
 
 footer {
-  height: 120px;
+  height: 70px;
   padding-top: 10px;
 }
 
