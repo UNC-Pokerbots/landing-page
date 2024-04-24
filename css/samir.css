@@ -16,21 +16,21 @@ a, a:visited {
 }
 
 section {
-  padding: 10vh 0;
+  padding: 5vh;
   position: relative;
-  min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 section.dark, footer.dark, #header.dark {
   background-color: #4B9CD3;
-  color: white;
+  color: #014466;
 }
 
 section.blue, footer.blue {
   background-color: #4B9CD3;
-  color: white;
+  color: #014466;
 }
 
 #header {
@@ -141,6 +141,7 @@ img {
   max-height: 90000vh;
   max-width: 150%;
 }
+
 .team.grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -173,9 +174,9 @@ img {
   grid-row: 1 / 1;
   grid-column: 1 / 1; }
 
-.team.grid > *:first-child {
+ .team.grid > *:first-child {
   grid-row: 1 / 1;
-  grid-column: 1 / 1; }
+  grid-column: 1 / 1; } */
 
 .team.single {
   color: white;
@@ -224,7 +225,7 @@ img {
 }
 
 footer {
-  height: 120px;
+  height: 70px;
   padding-top: 10px;
 }
 
