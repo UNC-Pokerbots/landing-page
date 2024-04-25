@@ -23,6 +23,8 @@ section {
   align-items: center;
 }
 
+
+
 section.dark, footer.dark, #header.dark {
   background-color: #4B9CD3;
   color: white;
@@ -248,4 +250,9 @@ footer #elevator {
   font-size: 0.8em;
   color: rgba(242, 246, 249, 0.6) !important;
   text-decoration: underline;
+}
+
+#contact {
+  padding: 10vh 0 0 0 !important;
+  min-height: 10vh;
 }
